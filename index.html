@@ -35,24 +35,7 @@
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
     }
-    .wrap { max-width: 680px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
-    .watermark {
-      position: fixed;
-      top: -90px;
-      right: -30px;
-      font-family: "Instrument Serif", Georgia, serif;
-      font-size: 480px;
-      line-height: 1;
-      color: var(--text);
-      opacity: 0.04;
-      pointer-events: none;
-      user-select: none;
-      z-index: 0;
-    }
-    body.light .watermark { opacity: 0.05; }
-    @media (max-width: 600px) {
-      .watermark { font-size: 320px; top: -50px; right: -40px; }
-    }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 0 24px; }
     header {
       padding: 48px 0 0;
       display: flex;
@@ -156,7 +139,6 @@
   </style>
 </head>
 <body>
-  <div class="watermark" aria-hidden="true">L</div>
   <div class="wrap">
     <header>
       <div class="wordmark">Longsite Labs</div>
